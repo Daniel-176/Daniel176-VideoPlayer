@@ -49,7 +49,7 @@
             "LOADING..."});
             this.listITEMS.Location = new System.Drawing.Point(485, 12);
             this.listITEMS.Name = "listITEMS";
-            this.listITEMS.Size = new System.Drawing.Size(282, 442);
+            this.listITEMS.Size = new System.Drawing.Size(282, 390);
             this.listITEMS.TabIndex = 0;
             this.listITEMS.SelectedIndexChanged += new System.EventHandler(this.listITEMS_SelectedIndexChanged);
             // 
@@ -99,9 +99,9 @@
             "Buscando o Herobrine - 2° Temporada",
             "Videos do Vicente",
             "Videos Aleatorios"});
-            this.type.Location = new System.Drawing.Point(291, 313);
+            this.type.Location = new System.Drawing.Point(485, 408);
             this.type.Name = "type";
-            this.type.Size = new System.Drawing.Size(188, 52);
+            this.type.Size = new System.Drawing.Size(282, 52);
             this.type.TabIndex = 6;
             this.type.SelectedIndexChanged += new System.EventHandler(this.type_SelectedIndexChanged);
             // 
@@ -117,6 +117,7 @@
             this.Controls.Add(this.textofrandomthingy);
             this.Controls.Add(this.listITEMS);
             this.ForeColor = System.Drawing.Color.White;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Daniel176.ml Video Player Database";
             this.Load += new System.EventHandler(this.Form1_Load);
